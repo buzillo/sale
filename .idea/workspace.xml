@@ -1,0 +1,788 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6f4d9c82-7435-4dc6-8b6a-20e693006b71" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <expand />
+    <select />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="DockManager">
+    <window id="1">
+      <content type="file-editors">
+        <state>
+          <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+            <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+              <entry file="file:///Volumes/newWork/landing2/index.html">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="69">
+                    <caret line="238" column="0" lean-forward="false" selection-start-line="238" selection-start-column="0" selection-end-line="238" selection-end-column="0" />
+                    <folding />
+                  </state>
+                </provider>
+              </entry>
+            </file>
+          </leaf>
+        </state>
+      </content>
+    </window>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="wsgi.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sale/wsgi.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="298">
+              <caret line="20" column="30" lean-forward="false" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
+              <folding>
+                <element signature="e#223#237#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sale/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="60" lean-forward="true" selection-start-line="3" selection-start-column="60" selection-end-line="3" selection-end-column="60" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="9" lean-forward="true" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="requirements.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/requirements.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cars/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="27" column="47" lean-forward="false" selection-start-line="27" selection-start-column="47" selection-end-line="27" selection-end-column="47" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="apps.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cars/apps.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sale/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cars/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="e#24#78#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/cars/__init__.py" />
+        <option value="$PROJECT_DIR$/cars/templates/cars/2.html" />
+        <option value="$PROJECT_DIR$/static/css/font-awesome.min.css" />
+        <option value="$PROJECT_DIR$/templates/my_bootstrap3.html" />
+        <option value="$PROJECT_DIR$/send_email/urls.py" />
+        <option value="$PROJECT_DIR$/send_email/views.py" />
+        <option value="$PROJECT_DIR$/send_email/templates/index.html" />
+        <option value="$PROJECT_DIR$/send_email/admin.py" />
+        <option value="$PROJECT_DIR$/send_email/models.py" />
+        <option value="$PROJECT_DIR$/cars/templates/mail.html" />
+        <option value="$PROJECT_DIR$/cars/templates/cars/cars_list.html" />
+        <option value="$PROJECT_DIR$/cars/templates/cars/car_detail.html" />
+        <option value="$PROJECT_DIR$/static/css/bootstrap.min.css" />
+        <option value="$PROJECT_DIR$/cars/admin.py" />
+        <option value="$PROJECT_DIR$/sale/templatetags/__init__.py" />
+        <option value="$PROJECT_DIR$/services/admin.py" />
+        <option value="$PROJECT_DIR$/services/__init__.py" />
+        <option value="$PROJECT_DIR$/cars/service_list.html" />
+        <option value="$PROJECT_DIR$/sale/templatetags/discount.py" />
+        <option value="$PROJECT_DIR$/orders/admin.py" />
+        <option value="$PROJECT_DIR$/orders/__init__.py" />
+        <option value="/Volumes/newWork/landing2/index.html" />
+        <option value="$PROJECT_DIR$/sale/templatetags/sform.py" />
+        <option value="$PROJECT_DIR$/sale/templatetags/ser.py" />
+        <option value="$PROJECT_DIR$/sale/templatetags/serv.py" />
+        <option value="$PROJECT_DIR$/sale/templatetags/services.py" />
+        <option value="$PROJECT_DIR$/templates/discount.html" />
+        <option value="$PROJECT_DIR$/sale/templatetags/service.py" />
+        <option value="$PROJECT_DIR$/static/css/main.css" />
+        <option value="$PROJECT_DIR$/templates/404.html" />
+        <option value="$PROJECT_DIR$/sale/urls.py" />
+        <option value="$PROJECT_DIR$/services/templates/services/services_list.html" />
+        <option value="$PROJECT_DIR$/services/templates/services/service_detail.html" />
+        <option value="$PROJECT_DIR$/templates/index.html" />
+        <option value="$PROJECT_DIR$/cars/apps.py" />
+        <option value="$PROJECT_DIR$/orders/apps.py" />
+        <option value="$PROJECT_DIR$/orders/models.py" />
+        <option value="$PROJECT_DIR$/services/apps.py" />
+        <option value="$PROJECT_DIR$/services/models.py" />
+        <option value="$PROJECT_DIR$/.htaccess" />
+        <option value="$PROJECT_DIR$/cars/models.py" />
+        <option value="$PROJECT_DIR$/orders/forms.py" />
+        <option value="$PROJECT_DIR$/cars/views.py" />
+        <option value="$PROJECT_DIR$/sale/apps.py" />
+        <option value="$PROJECT_DIR$/sale/settings.py" />
+        <option value="$PROJECT_DIR$/sale/wsgi.py" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="454" />
+    <option name="y" value="323" />
+    <option name="width" value="1187" />
+    <option name="height" value="935" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="Scope" currentSubView="Project Files" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="sale" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sale" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sale" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sale" type="462c0819:PsiDirectoryNode" />
+              <item name="cars" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sale" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sale" type="462c0819:PsiDirectoryNode" />
+              <item name="cars" type="462c0819:PsiDirectoryNode" />
+              <item name="migrations" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <expand>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="sale" type="cbb8eebc:String" user="sale" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="sale" type="cbb8eebc:String" user="sale" />
+              <item name="skoda" type="cbb8eebc:String" user="skoda" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="External Dependencies" type="cbb8eebc:String" user="External Dependencies" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="External Dependencies" type="cbb8eebc:String" user="External Dependencies" />
+              <item name="/" type="cbb8eebc:String" user="/" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="External Dependencies" type="cbb8eebc:String" user="External Dependencies" />
+              <item name="/" type="cbb8eebc:String" user="/" />
+              <item name="Library" type="cbb8eebc:String" user="Library" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="External Dependencies" type="cbb8eebc:String" user="External Dependencies" />
+              <item name="/" type="cbb8eebc:String" user="/" />
+              <item name="Library" type="cbb8eebc:String" user="Library" />
+              <item name="Frameworks" type="cbb8eebc:String" user="Frameworks" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="External Dependencies" type="cbb8eebc:String" user="External Dependencies" />
+              <item name="/" type="cbb8eebc:String" user="/" />
+              <item name="Library" type="cbb8eebc:String" user="Library" />
+              <item name="Frameworks" type="cbb8eebc:String" user="Frameworks" />
+              <item name="Python.framework" type="cbb8eebc:String" user="Python.framework" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="External Dependencies" type="cbb8eebc:String" user="External Dependencies" />
+              <item name="/" type="cbb8eebc:String" user="/" />
+              <item name="Library" type="cbb8eebc:String" user="Library" />
+              <item name="Frameworks" type="cbb8eebc:String" user="Frameworks" />
+              <item name="Python.framework" type="cbb8eebc:String" user="Python.framework" />
+              <item name="Versions" type="cbb8eebc:String" user="Versions" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="External Dependencies" type="cbb8eebc:String" user="External Dependencies" />
+              <item name="/" type="cbb8eebc:String" user="/" />
+              <item name="Library" type="cbb8eebc:String" user="Library" />
+              <item name="Frameworks" type="cbb8eebc:String" user="Frameworks" />
+              <item name="Python.framework" type="cbb8eebc:String" user="Python.framework" />
+              <item name="Versions" type="cbb8eebc:String" user="Versions" />
+              <item name="3.6" type="cbb8eebc:String" user="3.6" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="External Dependencies" type="cbb8eebc:String" user="External Dependencies" />
+              <item name="/" type="cbb8eebc:String" user="/" />
+              <item name="Library" type="cbb8eebc:String" user="Library" />
+              <item name="Frameworks" type="cbb8eebc:String" user="Frameworks" />
+              <item name="Python.framework" type="cbb8eebc:String" user="Python.framework" />
+              <item name="Versions" type="cbb8eebc:String" user="Versions" />
+              <item name="3.6" type="cbb8eebc:String" user="3.6" />
+              <item name="lib" type="cbb8eebc:String" user="lib" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="External Dependencies" type="cbb8eebc:String" user="External Dependencies" />
+              <item name="/" type="cbb8eebc:String" user="/" />
+              <item name="Library" type="cbb8eebc:String" user="Library" />
+              <item name="Frameworks" type="cbb8eebc:String" user="Frameworks" />
+              <item name="Python.framework" type="cbb8eebc:String" user="Python.framework" />
+              <item name="Versions" type="cbb8eebc:String" user="Versions" />
+              <item name="3.6" type="cbb8eebc:String" user="3.6" />
+              <item name="lib" type="cbb8eebc:String" user="lib" />
+              <item name="python3.6" type="cbb8eebc:String" user="python3.6" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="External Dependencies" type="cbb8eebc:String" user="External Dependencies" />
+              <item name="/" type="cbb8eebc:String" user="/" />
+              <item name="Library" type="cbb8eebc:String" user="Library" />
+              <item name="Frameworks" type="cbb8eebc:String" user="Frameworks" />
+              <item name="Python.framework" type="cbb8eebc:String" user="Python.framework" />
+              <item name="Versions" type="cbb8eebc:String" user="Versions" />
+              <item name="3.6" type="cbb8eebc:String" user="3.6" />
+              <item name="lib" type="cbb8eebc:String" user="lib" />
+              <item name="python3.6" type="cbb8eebc:String" user="python3.6" />
+              <item name="site-packages" type="cbb8eebc:String" user="site-packages" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/services/templates/services" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/cars/templates/cars" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Django server.sale">
+    <configuration name="sale" type="Python.DjangoServer" factoryName="Django server">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="sale" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6f4d9c82-7435-4dc6-8b6a-20e693006b71" name="Default" comment="" />
+      <created>1510493544540</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1510493544540</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="454" y="323" width="1187" height="935" extended-state="0" />
+    <layout>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32857144" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32987747" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29166666" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3892857" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19213974" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.03264331" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24893798" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40284842" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32947975" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Concurrent Activities Diagram" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290398" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32987747" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29334676" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2799246" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22058824" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.03264331" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24920382" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Concurrent Activities Diagram" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290398" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40284842" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32947975" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+      <option name="time" value="10" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/orders/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="1" lean-forward="false" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cars/templates/cars/car_detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="542">
+          <caret line="109" column="22" lean-forward="false" selection-start-line="43" selection-start-column="10" selection-end-line="109" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cars/templates/cars/cars_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sale/templatetags/sform.py" />
+    <entry file="file://$PROJECT_DIR$/sale/templatetags/ser.py" />
+    <entry file="file://$PROJECT_DIR$/sale/templatetags/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sale/templatetags/serv.py" />
+    <entry file="file://$PROJECT_DIR$/sale/templatetags/services.py" />
+    <entry file="file://$PROJECT_DIR$/sale/templatetags/discount.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/discount.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sale/templatetags/service.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="5" lean-forward="false" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="450" column="0" lean-forward="true" selection-start-line="450" selection-start-column="0" selection-end-line="450" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/404.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/services/templates/services/services_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cars/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cars/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/orders/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/orders/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/orders/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/services/templates/services/service_detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/services/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/my_bootstrap3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/services/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/services/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/services/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/orders/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#24#52#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/orders/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding>
+            <element signature="e#24#48#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.htaccess" />
+    <entry file="file://$PROJECT_DIR$/orders/apps.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/services/apps.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sale/apps.py" />
+    <entry file="file:///Volumes/newWork/landing2/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="238" column="0" lean-forward="false" selection-start-line="238" selection-start-column="0" selection-end-line="238" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3153">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/webServers.xml" />
+    <entry file="file://$PROJECT_DIR$/.idea/sale.iml" />
+    <entry file="file://$PROJECT_DIR$/.idea/modules.xml" />
+    <entry file="file://$PROJECT_DIR$/.idea/misc.xml" />
+    <entry file="file://$PROJECT_DIR$/.idea/deployment.xml" />
+    <entry file="file://$PROJECT_DIR$/.idea/dataSources.xml" />
+    <entry file="file://$PROJECT_DIR$/.idea/dataSources.local.xml" />
+    <entry file="file://$PROJECT_DIR$/cars/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#24#78#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cars/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="47" lean-forward="false" selection-start-line="27" selection-start-column="47" selection-end-line="27" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sale/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cars/apps.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sale/wsgi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="20" column="30" lean-forward="false" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
+          <folding>
+            <element signature="e#223#237#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sale/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="60" lean-forward="true" selection-start-line="3" selection-start-column="60" selection-end-line="3" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="9" lean-forward="true" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

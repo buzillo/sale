@@ -1,0 +1,23 @@
+{% extends 'my_bootstrap3.html' %}
+{% load bootstrap3 %}
+{% load staticfiles %}
+{% load static %}
+{% block bootstrap3_content %}
+
+
+
+    <div class="container-fluid secret">
+        <div class="row centered"></div>
+        {% for service in services %}
+
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs- centered">
+
+            <a class="btn secret" href="{% url 'service' service_id=service.id %}">{{ service.action}}</a>
+            </div>
+        {% endfor %}
+    </div>
+
+
+
+{% endblock %}
+

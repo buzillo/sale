@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="561a16cd-a4ca-46f9-8b71-f15d835ea87d" name="sale" url="http://buzillo.myjino.ru">
+        <fileTransfer host="buzillo.myjino.ru" port="22" rootFolder="/home/users/b/buzillo" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

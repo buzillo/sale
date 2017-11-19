@@ -1,0 +1,114 @@
+{% extends 'my_bootstrap3.html' %}
+{% load bootstrap3 %}
+{% load staticfiles %}
+{% load static %}
+{% block bootstrap3_content %}
+
+
+
+
+<body style="background-color: white; margin-top: 10px;">
+
+
+    {% block application %}
+    <div class = "model_views_detail">
+        <div class="container-fluid">
+            <div class="row centered">
+
+
+                <div class="col-lg-1 col-md-1 col-xs-1"></div>
+                    <div class="col-lg-5 col-md-5 col-xs-5">
+                        <h6>ŠKODA <br>{{ car.modelcar }} {{ car.complectation }}</h6>
+                        <img class="imcar" src={{ car.image.url }}  alt="ŠKODA{{ car.modelcar }}">
+
+                    </div>
+
+                    <div class="col-lg-5 col-md-5 col-xs-5 opisanie">
+                        Двигатель: <strong>{{ car.engine }}</strong><br>
+                        Мощность двигателя: <strong>{{ car.power }}</strong><br>
+                        Тип двигателя: <strong>{{ car.tipeeng}}</strong><br>
+                        КПП: <strong>{{ car.kpp }}</strong><br>
+                        Привод: <strong>{{ car.privod }}</strong><br>
+                        Цвет: <strong>{{ car.color }}</strong><br>
+                        Дополнительные опции: <strong>{{ car.dop }}</strong><br><br>
+
+                        {{ car.oldprice }} руб. <br>
+                        <div class="npice">{{ car.newprice }} руб.</div>
+                    </div>
+
+
+                    <div class="col-lg-1 col-md-1 col-xs-1"></div>
+            </div>
+        </div>
+
+        <div class="container-fluid">
+            <div class="row centered">
+
+                <div class="col-lg-1 col-md-1 col-xs-1"></div>
+
+                        <div class="col-lg-10 col-md-10 col-xs-10">
+
+
+                            {% if sended %}
+                                <br>
+                                <h3>Спасибо! <br>Ваша заявка принята.<br> <br></h3>
+                                   <h5> Мы свяжемся с вами в ближайшее время.</h5>
+                            {% else %}
+
+                                <form class="form-horizontal"  role="form" action="" method="post">
+                                {% csrf_token %}
+                                {{ form.car}}
+
+                                    <div class="form-group">
+                                        <label for="form.name" class="col-sm-4 col-sx-4 ">Ваше Имя *</label>
+                                            <div class="col-sm-8 col-sx-8  ">{{ form.name }}</div>
+                                    </div>
+
+
+        <div class="form-group">
+            <label for="form.phone" class="col-sm-4 col-sx-4 ">Ваш телефон *</label>
+                <div class="col-sm-8 col-sx-8 ">{{ form.phone }}</div>
+        </div>
+
+
+        <div class="form-group">
+            <div class="col-sm-4 col-sx-4"></div>
+            <div class="col-sm-8 col-sx-8">
+            {% if form.errors %}
+            <p class="red">
+                 Пожалуйста, заполните все поля.
+            </p>
+            {% endif %}
+            </div>
+        </div>
+
+
+
+
+        <div class="form-group">
+            <div class="col-sm-4 col-sx-4"></div>
+            <div class="col-sm-8 col-sx-8">
+                <button type="submit" class="btn btn-success btn-lg btn-block ">Отправить</button>
+            </div>
+<div class="col-lg-1 col-md-1 col-xs-1"></div>
+
+ </div>
+
+    </form>
+
+
+
+
+
+
+
+
+
+
+    {% endif %}
+         </div>
+        </div>  </div>
+        </body>
+
+    {% endblock %}
+{% endblock %}

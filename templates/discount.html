@@ -1,0 +1,55 @@
+{% extends 'my_bootstrap3.html' %}
+{% load bootstrap3 %}
+{% load staticfiles %}
+{% load static %}
+{% block bootstrap3_content %}
+
+
+    <div class = "model" id="discount">
+    <div class="container-fluid">
+        <div class="row centered">
+            <h4>Оформить дисконтную карту</h4>
+
+{% block content %}
+
+
+
+    <form method="post" action="#discount">
+
+    {% csrf_token %}
+
+
+  <div class="form-group">
+    <label for="name">Ваше Имя</label>
+    <input type="text" id="name" class="form-control" placeholder="Ваше Имя">
+  </div>
+
+
+  <div class="form-group">
+    <label for="phone">Ваш </label>
+    <input type="number" id="phone" class="form-control"  placeholder="телефон">
+  </div>
+
+
+  <button type="submit" class="btn btn-default">Отправить</button>
+</form>
+
+
+
+{% endblock %}
+
+
+
+
+
+
+
+
+
+
+         </div>
+        </div>  </div>
+
+
+
+{% endblock %}
