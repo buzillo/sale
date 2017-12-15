@@ -7,15 +7,32 @@
 
 
     <div class="container-fluid secret">
-        <div class="row centered"></div>
+        <div class="row centered">
         {% for service in services %}
 
-            <div class="col-lg-3 col-md-3 col-sm-3 col-xs- centered">
 
-            <a class="btn secret" href="{% url 'service' service_id=service.id %}">{{ service.action}}</a>
-            </div>
+
+            <a href="{% url 'service' service_id=service.id %}">
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 centered">
+
+
+                    <span class="pnum">{{ service.pnum }}. <i class="fa {{ service.ico }} "></i></span>
+                    <br>
+                      {{ service.action }}<br>
+
+
+
+
+
+
+                </div>
+
+
+            </a>
+
         {% endfor %}
-    </div>
+        </div></div>
+
 
 
 

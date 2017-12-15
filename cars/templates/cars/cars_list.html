@@ -3,6 +3,55 @@
 {% block application %}
 
 
+
+
+     <script type="text/javascript">
+        $(document).ready(function () {
+            var form = $('#id_form');
+
+
+            console.log(form);
+            form.on('submit', function (e) {
+                e.preventDefault();
+
+                var car = $('#id_carr').val();
+                console.log(car);
+
+                var name = $('#id_name').val();
+                console.log(name);
+
+                var email = $('#id_email').val();
+                console.log(email);
+                var submit_btn = $('#submit_btn');
+
+
+
+
+                var data = {};
+                data.name = name;
+                data.email = email;
+                data.car = car;
+                var csrf_token = $('#id_form [name="csrfmiddlewaretoken"]').val();
+                data["csrfmiddlewaretoken"] = csrf_token;
+
+                var url = form.attr("action");
+                console.log(data);
+
+
+                $.ajax({
+                    url: url,
+                    type: 'POST',
+                    data: data,
+                    cache: true,
+                    success: function (data) {
+                        console.log("OK");
+                    }
+                })
+            })
+        });
+         </script>
+
+
 <div class = "model" id="rapid">
     <div class="container-fluid">
         <div class="row centered">
@@ -15,19 +64,29 @@
 
 
                     <div id="modelka" class="col-lg-12 col-md-12 col-sm-12">
-                           <h4>ŠKODA {{ rap.modelcar }}</h4>
+                           <h4 class="up">ŠKODA {{ rap.modelcar }}</h4>
                     </div>
 
-                    <div id="kopleckt" class="col-lg-12 col-md-12 col-sm-12">
+                    <div id="kopleckt" class="col-lg-12 col-md-12 col-sm-12 complblock">
                         {{ rap.complectation }}
                     </div>
+
 
                     <!-- картинка -->
 
                     <div id="image_car">
-                        <img class="imcar" src={{ rap.image.url }}  alt="ŠKODA{{ rap.modelcar }}">
+
+                         <div id="image_car_ico">
+                             {% if rap.ico %}
+                                 <img class="ico" src ="{{ rap.ico.url }}">
+                             {% endif %}
+                         </div>
+
+                        <img class="imcar up"  src={{ rap.image.url }}  alt="ŠKODA{{ rap.modelcar }}">
 
                     </div>
+
+
 
                     <!-- характеристики -->
 
@@ -65,11 +124,55 @@
                             <span id="newprice">{{ rap.newprice}}</span><span>.-</span>
                         </div>
 
+                         <div class="col-lg-12 col-md-12 col-sm-12 giftblock">
+                            <span class="giftblocktext">{{ rap.bonus}}</span>
+                        </div>
+
+
+
 
 
                         <div class="col-lg-12 col-md-12">
+                            <button class="btn btn-success btn-lg" data-toggle="modal"  href="{% url 'car' car_id=rap.id %} "data-target="#myModal" >Подробнее</button>
 
-                            <a class="btn btn-success btn-lg" role="button" href="{% url 'car' car_id=rap.id %}" target="_blank" onClick="popupWin = window.open(this.href, 'car', 'location,width=600,height=600,left=300,top=300'); popupWin.focus(); return false;">Подробнее</a>
+
+   <div class="modal" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+     <div class="modal-backdrop">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title" id="myModalLabel">Название модали</h4>
+      </div>
+      <div class="modal-body">
+
+
+
+
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Закрыть</button>
+        <button type="button" class="btn btn-primary">Сохранить изменения</button>
+      </div>
+    </div>
+  </div> </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
                         </div>
                 </div>
@@ -79,10 +182,10 @@
 
 
     {% empty %}
-          <div class="row centered">
-             <h5>К сожалению в данный момент ŠKODA Rapid со скидкой нет в наличии. </h5><br>
+          <div class="center-block">
+             <h5>К сожалению в данный момент ŠKODA RAPID со скидкой нет в наличии. </h5><br>
               <div class="row centered">
-                  <img class="imcar" src={% static "img/rapid222.png" %} class="img-responsive">
+                  <img class="imcar" src={% static "img/rapid222.png" %} >
 
               </div>
 
@@ -97,7 +200,7 @@
 <div class = "model" id="octavia">
     <div class="container-fluid">
         <div class="row centered">
-            <h4>ŠKODA Octavia</h4>
+            <h4>ŠKODA OCTAVIA</h4>
         </div>
 
     {% for oct in octs %}
@@ -107,7 +210,7 @@
 
 
                     <div id="modelka" class="col-lg-12 col-md-12 col-sm-12">
-                           <h4>ŠKODA {{ oct.modelcar }}</h4>
+                           <h4 class="up">ŠKODA {{ oct.modelcar }}</h4>
                     </div>
 
                     <div id="kopleckt" class="col-lg-12 col-md-12 col-sm-12">
@@ -117,7 +220,7 @@
                     <!-- картинка -->
 
                     <div id="image_car">
-                        <img class="imcar" src={{ oct.image.url }}  alt="ŠKODA{{ oct.modelcar }}">
+                        <img class="imcar up" src={{ oct.image.url }}  alt="ŠKODA{{ oct.modelcar }}">
 
                     </div>
 
@@ -157,6 +260,10 @@
                             <span id="newprice">{{ oct.newprice}}</span><span>.-</span>
                         </div>
 
+                     <div class="col-lg-12 col-md-12 col-sm-12 giftblock">
+                            <span class="giftblocktext">{{ oct.bonus}}</span>
+                        </div>
+
 
 
                         <div class="col-lg-12 col-md-12">
@@ -171,10 +278,10 @@
 
 
     {% empty %}
-          <div class="row centered">
-             <h5>К сожалению в данный момент ŠKODA Octavia со скидкой нет в наличии. </h5><br>
+          <div class="center-block">
+             <h5>К сожалению в данный момент ŠKODA OCTAVIA со скидкой нет в наличии. </h5><br>
               <div class="row centered">
-                  <img class="imcar" src={% static "img/octavia222.png" %} class="img-responsive">
+                  <img class="imcar" src={% static "img/octavia222.png" %} >
 
               </div>
 
@@ -190,7 +297,7 @@
 <div class = "model" id="superb">
     <div class="container-fluid">
         <div class="row centered">
-            <h4>ŠKODA Superb</h4>
+            <h4>ŠKODA SUPERB</h4>
         </div>
     {% for superb in superbs %}
         <div id="car" class="col-lg-3  col-md-4  col-sm-12">
@@ -199,7 +306,7 @@
 
 
                     <div id="modelka" class="col-lg-12 col-md-12 col-sm-12">
-                           <h4>ŠKODA {{ superb.modelcar }}</h4>
+                           <h4 class="up">ŠKODA {{ superb.modelcar }}</h4>
                     </div>
 
                     <div id="kopleckt" class="col-lg-12 col-md-12 col-sm-12">
@@ -249,6 +356,10 @@
                             <span id="newprice">{{ superb.newprice}}</span><span>.-</span>
                         </div>
 
+                     <div class="col-lg-12 col-md-12 col-sm-12 giftblock">
+                            <span class="giftblocktext">{{ superb.bonus}}</span>
+                        </div>
+
 
 
                         <div class="col-lg-12 col-md-12">
@@ -263,10 +374,10 @@
 
 
     {% empty %}
-          <div class="row centered">
-             <h5>К сожалению в данный момент ŠKODA Superb со скидкой нет в наличии. </h5><br>
+          <div class="center-block">
+             <h5>К сожалению в данный момент ŠKODA SUPERB со скидкой нет в наличии. </h5><br>
               <div class="row centered">
-                  <img class="imcar" src={% static "img/superb222.png" %} class="img-responsive">
+                  <img class="imcar" src={% static "img/superb222.png" %} >
 
               </div>
 
@@ -281,7 +392,7 @@
 <div class = "model" id="yeti">
     <div class="container-fluid">
         <div class="row centered">
-            <h4>ŠKODA Yeti</h4>
+            <h4>ŠKODA YETI</h4>
         </div>
     {% for yeti in yetis %}
         <div id="car" class="col-lg-3  col-md-4  col-sm-12">
@@ -290,7 +401,7 @@
 
 
                     <div id="modelka" class="col-lg-12 col-md-12 col-sm-12">
-                           <h4>ŠKODA {{ yeti.modelcar }}</h4>
+                           <h4 class="up">ŠKODA {{ yeti.modelcar }}</h4>
                     </div>
 
                     <div id="kopleckt" class="col-lg-12 col-md-12 col-sm-12">
@@ -340,6 +451,10 @@
                             <span id="newprice">{{ yeti.newprice}}</span><span>.-</span>
                         </div>
 
+                     <div class="col-lg-12 col-md-12 col-sm-12 giftblock">
+                            <span class="giftblocktext">{{ yeti.bonus}}</span>
+                        </div>
+
 
 
                         <div class="col-lg-12 col-md-12">
@@ -354,10 +469,10 @@
 
 
     {% empty %}
-          <div class="row centered">
-             <h5>К сожалению в данный момент ŠKODA  Yeti со скидкой нет в наличии. </h5><br>
+          <div class="center-block">
+             <h5>К сожалению в данный момент ŠKODA  YETI со скидкой нет в наличии. </h5><br>
               <div class="row centered">
-                  <img class="imcar" src={% static "img/yeti222.png" %} class="img-responsive">
+                  <img class="imcar" src={% static "img/yeti222.png" %} >
 
               </div>
 
@@ -372,7 +487,7 @@
 <div class = "model" id="kodiaq">
     <div class="container-fluid">
         <div class="row centered">
-            <h4>ŠKODA Kodiaq</h4>
+            <h4 class="up">ŠKODA KODIAQ</h4>
         </div>
     {% for kodiaq in kodiaqs %}
         <div id="car" class="col-lg-3  col-md-4  col-sm-12">
@@ -381,7 +496,7 @@
 
 
                     <div id="modelka" class="col-lg-12 col-md-12 col-sm-12">
-                           <h4>ŠKODA {{ kodiaq.modelcar }}</h4>
+                           <h4 class="up">ŠKODA {{ kodiaq.modelcar }}</h4>
                     </div>
 
                     <div id="kopleckt" class="col-lg-12 col-md-12 col-sm-12">
@@ -431,11 +546,15 @@
                             <span id="newprice">{{ kodiaq.newprice}}</span><span>.-</span>
                         </div>
 
+                     <div class="col-lg-12 col-md-12 col-sm-12 giftblock">
+                            <span class="giftblocktext">{{ kodiaq.bonus}}</span>
+                        </div>
+
 
 
                         <div class="col-lg-12 col-md-12">
 
-                            <a class="btn btn-success btn-lg" role="button" href="{% url 'car' car_id=kodiaq.id %}" target="_blank" onClick="popupWin = window.open(this.href, 'car', 'location,width=600,height=600,left=300,top=300'); popupWin.focus(); return false;">Подробнее</a>
+                            <a class="btn btn-success btn-lg" id="go" role="button" href="{% url 'car' car_id=kodiaq.id %}" target="modal" onClick="popupWin = window.open(this.href, 'car', 'location,width=600,height=600,left=300,top=300'); popupWin.focus(); return false;">Подробнее</a>
 
                         </div>
                 </div>
@@ -446,9 +565,9 @@
 
     {% empty %}
           <div class="row centered">
-             <h5>К сожалению в данный момент ŠKODA Kodiaq со скидкой нет в наличии. </h5><br>
-              <div class="row centered">
-                  <img class="imcar" src={% static "img/kodiaq222.png" %} class="img-responsive">
+             <h5>К сожалению в данный момент ŠKODA KODIAQ со скидкой нет в наличии. </h5><br>
+              <div class="center-block">
+                  <img class="imcar" src={% static "img/kodiaq222.png" %} >
 
               </div>
 
@@ -460,11 +579,20 @@
 
 
 
+<!-- Модаль -->
 
 
-    {% for script in scripts %}
-      <script src="{{ script.script }}"></script>
+<!-- Модаль -->
+
+
+
+ {% for script in scripts %}
+{% autoescape off %}
+      {{ script.script }}
+ {% endautoescape %}
     {% endfor %}
+
+
 {% endblock %}
 
 

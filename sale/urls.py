@@ -13,11 +13,14 @@ Including another URLconf
     1. Import the include() function: from django.conf.urls import url, include
     2. Add a URL to urlpatterns:  url(r'^blog/', include('blog.urls'))
 """
-from django.conf.urls import url
+from django.conf.urls import url, include
 from django.contrib import admin
+from django.contrib.staticfiles.templatetags import staticfiles
+from django.contrib.staticfiles.urls import staticfiles_urlpatterns
 from django.utils.functional import curry
 
 from cars import views
+admin.autodiscover()
 
 
 from cars.views import cars_list, car_detail, services_list, service_detail
@@ -27,12 +30,19 @@ from django.views.defaults import server_error, page_not_found, permission_denie
 
 
 urlpatterns = [
+    url(r'^ckeditor/', include('ckeditor_uploader.urls')),
     url(r'^admin/', admin.site.urls),
     url(r'^$', cars_list, name='home'),
     url(r'^(?P<car_id>\d+)/$', car_detail, name='car'),
     url(r'^service$', services_list, name='service-home'),
     url(r'^service(?P<service_id>\d+)/$', service_detail, name='service'),
+    url(r'^client_adding/$', views.client_adding, name='client_adding')
 
 
 
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+if settings.DEBUG:
+    urlpatterns += staticfiles_urlpatterns() + static(
+        settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+

@@ -8,18 +8,15 @@ https://docs.djangoproject.com/en/1.11/howto/deployment/wsgi/
 """
 
 
+import os
+import sys
 
-import sys, os
-import django.core.handlers.wsgi
+path = os.path.expanduser('~/my-first-blog')
+if path not in sys.path:
+    sys.path.append(path)
+
+os.environ['DJANGO_SETTINGS_MODULE'] = 'mysite.settings'
 
 from django.core.wsgi import get_wsgi_application
-sys.path.insert(0, '/usr/local/www/app1')
-
-
-os.environ.setdefault("DJANGO_SETTINGS_MODULE", 'settings')
-
-application = django.core.handlers.wsgi.WSGIHandler()
-
-
-
-
+from django.contrib.staticfiles.handlers import StaticFilesHandler
+application = StaticFilesHandler(get_wsgi_application())

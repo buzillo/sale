@@ -29,14 +29,19 @@ ALLOWED_HOSTS = []
 
 
 EMAIL_USE_TLS = True
-EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_HOST = 'smtp.yandex.ru'
 EMAIL_PORT = 587
-EMAIL_HOST_USER = 'skoda.sigmaservice@gmail.com'
-EMAIL_HOST_PASSWORD = 'skoda3278800'
-EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+EMAIL_HOST_USER = 'skoda.sigmaservice@yandex.ru'
+EMAIL_HOST_PASSWORD = '88123278800'
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 
 SERVER_EMAIL = EMAIL_HOST_USER
 DEFAULT_FROM_EMAIL = EMAIL_HOST_USER
+
+
+
+
+
 
 # Application definition
 
@@ -51,7 +56,9 @@ INSTALLED_APPS = [
     'orders',
     'bootstrap3',
     'sale',
-    'services'
+    'services',
+    'ckeditor',
+    'ckeditor_uploader'
 
 
 
@@ -144,3 +151,15 @@ STATICFILES_DIRS = [
 
 MEDIA_ROOT = os.path.join(BASE_DIR, "media")
 MEDIA_URL = "/media/"
+CKEDITOR_UPLOAD_PATH = "uploads/"
+CKEDITOR_CONFIGS = {
+    'default': {
+        'toolbar': 'full',
+        'height': 300,
+        'width': 600,
+    },
+}
+
+CKEDITOR_JQUERY_URL = '//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js'
+CKEDITOR_IMAGE_BACKEND =  'pillow'
+

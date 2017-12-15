@@ -3,6 +3,7 @@
 {% load bootstrap3 %}
 {% load staticfiles %}
 {% load static %}
+
 {% block bootstrap3_content %}
 
     <div class="navbar navbar-inverse navbar-fixed-top">
@@ -13,8 +14,11 @@
              <span class="icon-bar"></span>
              <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="{% url 'home' %}">Сигма Сервис</a>
+            <div class="brand-div">
+
+                <a href="{% url 'home' %}"><span class="linebrand">СИГМА СЕРВИС</span> <br> <span class="slogan">Oфициальный дилер ŠKODA</span> </a></div>
         </div>
+
         <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav navbar-right">
                 <li class="active"><a href="{% url 'home' %}">Лайфхак</a></li>
@@ -28,19 +32,22 @@
 </div>
 
 
-    <div class="container wb">
+    <div class="container wb backw">
         <div class="container-fluid">
 
             <div class="row centered ">
 
                 <div class="col-lg-12 col-md-12 col-sm-12">
-                    <h4> {{ service.name }}<br></h4>
+                    <h4 class="ddd"> {{ service.name }}<br></h4>
 
                     <div class="col-lg-2 col-md-1 col-sm-1"> </div>
                     <div class="col-lg-8 col-md-10 col-sm-10">
                             {% if service.photo %}
-                                <img class="photo_services img-responsive" src="{{ service.photo.url }}" alt="{{ service.name  }}">
+
+                                <img class="photo_services img-responsive center-block" src="{{ service.photo.url }}" alt="{{ service.name  }}">
+
                             {% endif %}
+
 
                     </div>
                     <div class="col-lg-2 col-md-1 col-sm-1"> </div>
@@ -49,44 +56,24 @@
 
 
                     <div class="col-lg-2 col-md-1 col-sm-1"></div>
-                    <div class="col-lg-8 col-md-10 col-sm-10">
+                    <div class="col-lg-8 col-md-10 col-sm-10"><hr>
+
                         <div class="description_sevice">
-                            {{ service.description }}
+
+                            {% autoescape off %} {{ service.description }} {% endautoescape %}
                         </div>
 
-                    {% if service.description2 %}
-                        <div class="description_sevice_2">
-                            {{ service.description2 }}
-                        </div>
-                    {% endif %}
-
-                    {% if service.description3 %}
-                        <div class="description_sevice_2">
-                            {{ service.description3 }}
-                        </div>
-                    {% endif %}
-
-                    {% if service.description4 %}
-                        <div class="description_sevice_2">
-                            {{ service.description4 }}
-                        </div>
-                    {% endif %}
-
-                    {% if service.description5 %}
-                        <div class="description_sevice_2">
-                            {{ service.descriptio5 }}
-                        </div>
-                    {% endif %}
 
                     <div class="col-lg-2 col-md-1 col-sm-1"> </div>
 
 
 
-                        <hr>
+
 
                  <div class="col-lg-12 col-md-12 col-sm-12">
                      <div class="col-lg-2 col-md-1 col-sm-1"></div>
                     <div class="col-lg-8 col-md-10 col-sm-10">
+
 
 
                     </div>
@@ -94,7 +81,19 @@
                     <div class="col-lg-2 col-md-1 col-sm-1"> </div>
                  </div>
 
+                    <div class="col-lg-3 col-md-3 col-sm-3"></div>
+
+                 <div class="col-lg-6 col-md-6 col-sm-6">
+
+                     <a href="{% url "home" %}"> <div class="link_botton">Вернуться на главную страницу </div></a>
+                 <div class="col-lg-3 col-md-3 col-sm-3"></div></div>
+
+
+
                  <div class="col-lg-12 col-md-12 col-sm-12">
+                 <hr><br><br>
+
+
 
                         {% if sended %}
                                 <br>
@@ -162,12 +161,12 @@
 
 
 
-
-
-
-
-
 {% endblock %}
+
+
+
+
+
 
 
 
